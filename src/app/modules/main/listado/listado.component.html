@@ -1,0 +1,10 @@
+<div style="margin:auto;width: 50%;">
+    <p>Files in CRM</p>
+    <ul>
+        <li *ngFor="let file of listFiles ">
+            <a href="javascript:void(0)" (click)="irArchivo(file)"> {{file.nombre}}  (Make annotations)</a>
+        </li>
+    </ul>
+</div>
+
+
